@@ -1,0 +1,30 @@
+/*********************************/
+/*         Datepicker           */
+/*===============================*/
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--selected, .react-datepicker__year-text--in-selecting-range, .react-datepicker__year-text--in-range {
+    @apply bg-red-500 #{!important};
+}
+.react-datepicker{
+    @apply bg-white dark:bg-slate-900 text-slate-900 dark:text-white border-gray-100 dark:border-gray-800 #{!important};
+}
+.react-datepicker__day{
+    @apply text-slate-900 dark:text-white;
+}
+.react-datepicker__header{
+    @apply bg-white dark:bg-slate-700 text-slate-900 dark:text-white border-gray-100 dark:border-gray-800 #{!important};
+}
+.react-datepicker__current-month{
+    @apply text-slate-900 dark:text-white #{!important};
+}
+.react-datepicker__day-name{
+    @apply text-slate-900 dark:text-white #{!important};
+}
+
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle,
+.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle{
+    @apply fill-white dark:fill-slate-900 text-white dark:text-slate-900 #{!important};
+}
+
+.react-datepicker-popper .react-datepicker__triangle{
+    @apply stroke-gray-100 dark:stroke-gray-800 #{!important};
+}
